@@ -26,7 +26,7 @@ module ShoppingCart
 
     describe 'total' do
       it 'sums the prices of the products in the cart' do
-        expect(cart.total).to eq(165.5)
+        expect(cart.total).to eq(173)
       end
 
       context "when it is a extra loyal customer" do
@@ -47,7 +47,7 @@ module ShoppingCart
           end
 
           it 'has an extra 10% discount' do
-            expect(cart.total).to eq(149.85)
+            expect(cart.total).to eq(156.6)
           end
         end
       end

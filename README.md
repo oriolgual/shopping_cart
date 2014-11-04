@@ -17,11 +17,16 @@ And then execute:
 
     $ irb
     $ require 'shopping_cart'
-    
+
 ## Test suite
 
     $ bundle exec rake
-    
+
 or:
 
     $ bundle exec guard
+
+## Create your own gem
+
+See this great tutorial by Smashing Magazine:
+http://www.smashingmagazine.com/2014/04/08/how-to-build-a-ruby-gem-with-bundler-test-driven-development-travis-ci-and-coveralls-oh-my/

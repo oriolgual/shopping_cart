@@ -11,6 +11,7 @@ git clone git@github.com:oriolgual/shopping_cart.git
 And then execute:
 
     $ cd shopping_cart
+    $ gem install bundler
     $ bundle install
 
 ## Usage

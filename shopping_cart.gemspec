@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = ShoppingCart::VERSION
   spec.authors       = ["Oriol Gual"]
   spec.email         = ["oriol.gual@gmail.com"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
+  spec.summary       = %q{Ironhack exercise}
+  spec.description   = %q{Ironhack exercise}
   spec.homepage      = ""
   spec.license       = "MIT"
 

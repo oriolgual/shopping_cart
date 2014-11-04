@@ -19,7 +19,7 @@ module ShoppingCart
           expect(Fruit.new('Banana', 10).discount(day)).to eq(1)
 
           day = Date.new(2014, 11, 1)
-          expect(Fruit.new('Banana', 10).discount(day)).to eq(1)
+          expect(Fruit.new('Avocado', 20).discount(day)).to eq(2)
         end
       end
     end
